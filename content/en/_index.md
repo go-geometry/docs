@@ -48,7 +48,11 @@ The package names are working names. None exists as a repository yet.
 
 ## Licences
 
-Safe sources to port from are Shewchuk's predicates (public domain), the published papers, gonum (BSD-3-Clause) and MFEM (BSD-3-Clause). Triangle, TetGen, CGAL and Gmsh are never ported: they are run as external oracles. Qhull's licence has five custom conditions that are read before anything is ported from it.
+Safe sources to port from are Shewchuk's predicates (public domain), the published papers, gonum (BSD-3-Clause) and MFEM (BSD-3-Clause). Triangle, TetGen, CGAL and Gmsh are never ported: they are run as external oracles. Qhull's licence (SPDX `Qhull`) has five conditions and no copyleft: it allows a Go port, kept in its own module so that only the code that links it carries the licence text. The [design]({{< relref "design" >}}) gives the verdict and the exactness decision for each component.
+
+## Design
+
+The [design of item 7]({{< relref "design" >}}) covers the whole of `scipy.spatial` 1.18.1 and MATLAB's computational geometry: the inventory, the exactness decision for each component, seven proposed repositories, and 45 tasks in eight waves. It is awaiting approval.
 
 ## Neighbouring organizations
 

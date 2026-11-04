@@ -6,7 +6,7 @@ description: "k-d trees and exact nearest-neighbour search."
 
 <!-- From go-scikit/roadmap PLAN.md and bib/geometry-pde-graphs.md (section 2, algorithms; section 3, implementations; section 4, validation). The package has no repository yet: change the roadmap first, then here. -->
 
-**Status: planned (wave 2).** There is no repository and no code yet, and `nearest` is a working name. These pages describe the plan, not a release.
+**Status: planned (wave 2).** There is no repository and no code yet, and `nearest` is a working name. These pages describe the plan, not a release. The [design]({{< relref "design" >}}) proposes to replace this working name with `go-geometry/kdtree`, an exact port of SciPy's cKDTree rather than an adoption of gonum's tree, so that results and tie order match SciPy.
 
 k-d trees and exact nearest-neighbour search.
 

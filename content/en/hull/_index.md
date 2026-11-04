@@ -37,7 +37,7 @@ What exists, under which licence, and what that allows:
 | Implementation | Licence and use |
 |---|---|
 | SciPy `spatial` | BSD-3-Clause; the oracle for hulls, Delaunay and Voronoi (it wraps Qhull) |
-| Qhull | custom licence with five conditions, not an SPDX one: an oracle until those conditions are read |
+| Qhull 2020.2 | SPDX `Qhull`: five conditions, no copyleft; a Go port is allowed and is proposed as its own module, see the [design]({{< relref "design" >}}) |
 | Octave `delaunay`, `convhull` | an oracle that mirrors MATLAB semantics |
 | CGAL | GPL-3.0+ or LGPL-3.0+: an oracle only |
 
