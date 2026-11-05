@@ -7,10 +7,11 @@ cascade:
 description: "go-geometry (planned, wave 2): robust predicates, convex hulls, Delaunay triangulations, Voronoi diagrams, k-d trees and mesh generation in pure Go (CGO=0), validated against SciPy, Octave and the Qhull and Triangle binaries."
 ---
 
-**go-geometry is planned, in wave 2.** It holds no library yet: no repository
-contains code, and nothing here is released. These pages say what the
-organization will cover, which items of the plan it carries, and which
-references each package will be validated against.
+**go-geometry is in wave 2.** Its first library is released:
+[predicates]({{< relref "predicates" >}}) v0.1.0, exact geometric predicates.
+The other packages are planned. These pages say what the organization covers,
+which items of the plan it carries, and which references each package is
+validated against.
 
 ## Scope
 
@@ -41,7 +42,7 @@ The package names are working names. None exists as a repository yet.
 
 | Package | Status | What it will provide |
 | --- | --- | --- |
-| [predicates]({{< relref "predicates" >}}) | planned (wave 2), no repository yet | Exact geometric predicates at near floating-point cost. |
+| [predicates]({{< relref "predicates" >}}) | released, [v0.1.0](https://github.com/go-geometry/predicates/releases/tag/v0.1.0) | Exact geometric predicates at near floating-point cost. |
 | [hull]({{< relref "hull" >}}) | planned (wave 2), no repository yet | Convex hulls, Delaunay triangulations, Voronoi diagrams and alpha shapes. |
 | [nearest]({{< relref "nearest" >}}) | planned (wave 2), no repository yet | k-d trees and exact nearest-neighbour search. |
 | [meshgen]({{< relref "meshgen" >}}) | planned (wave 3), no repository yet | Constrained Delaunay triangulation and quality mesh generation, 2D then 3D. |

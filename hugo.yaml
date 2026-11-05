@@ -87,10 +87,10 @@ params:
 
   # The release of each library these pages describe, "main" while it has no
   # tag. The newest minor version among the tagged ones is the documentation's
-  # version label (v0.1.2 -> 0.1): the CI reads it here. no package exists
-  # yet, so the documentation is version "main".
+  # version label (v0.1.2 -> 0.1): the CI reads it here. predicates v0.1.0
+  # makes the documentation version 0.1.
   libraries:
-    predicates: "main"
+    predicates: "v0.1.0"
     hull: "main"
     nearest: "main"
     meshgen: "main"
