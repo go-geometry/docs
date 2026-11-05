@@ -9,10 +9,11 @@
 A [Hugo](https://gohugo.io/) site with the [tannevaled/hextra](https://github.com/tannevaled/hextra)
 fork of the [Hextra](https://github.com/imfing/hextra) theme (pinned to v0.16.0),
 built the same way as the [go-bignum documentation](https://github.com/go-bignum/docs),
-with go-geometry's branding. The organization is **planned (wave 2)** and has no
-library yet: the site gives its scope, its plan (a link to
-[go-scikit/roadmap](https://github.com/go-scikit/roadmap)) and one page per
-planned package.
+with go-geometry's branding. The organization is in **wave 2**; its first
+library, [predicates](https://github.com/go-geometry/predicates) v0.1.0, is
+released. The site gives its scope, its plan (a link to
+[go-scikit/roadmap](https://github.com/go-scikit/roadmap)), the design, and one
+page per package.
 
 ## Versions
 
@@ -27,8 +28,9 @@ tagged:
 | the newest version (else `main`) | also `https://go-geometry.github.io/docs/latest/` |
 
 `https://go-geometry.github.io/docs/` redirects to `latest/`. Each push to `main`
-replaces the directory of the version it describes, and nothing else. No package
-exists yet, so the pages are published under `main/`.
+replaces the directory of the version it describes, and nothing else. With
+predicates v0.1.0 the pages are published under `0.1/` (and `latest/`); the
+earlier `main/` build stays as it was.
 
 ## Layout
 
